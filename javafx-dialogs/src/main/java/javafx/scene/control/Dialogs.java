@@ -110,7 +110,7 @@ public class Dialogs
 {
 
     // !CHANGE START! use a separate css file
-    private static final URL DIALOGS_CSS_URL = FXDialog.class.getResource("dialogs.css");
+    private static final URL DIALOGS_CSS_URL = Dialogs.class.getResource("dialogs.css");
 
     // !CHANGE END!
 
